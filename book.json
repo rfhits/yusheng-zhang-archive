@@ -1,5 +1,16 @@
 {
   "root": ".",
   "title": "Yusheng Zhang Archive",
-  "language": "zh"
+  "language": "zh-hans",
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-plus",
+    "anchor-navigation-ex"
+  ],
+  "pluginsConfig": {
+    "anchor-navigation-ex": {
+      "showLevel": false
+    }
+  }
 }
