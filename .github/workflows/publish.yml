@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   build-and-publish:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     env:
       USER_NAME: rfhits
       USER_EMAIL: wsyj0117@gmail.com
@@ -16,8 +16,8 @@ jobs:
           node-version: 20
       - name: Run package installation script
         run: |
-          Set-ExecutionPolicy Bypass -Scope Process -Force
-          .\install_packages.ps1
+          chmod +x ./install_packages.sh
+          ./install_packages.sh
       - run: honkit build ./
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
