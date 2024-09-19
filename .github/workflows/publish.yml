@@ -1,0 +1,25 @@
+name: "honkit-publish"
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    env:
+      USER_NAME: rfhits
+      USER_EMAIL: wsyj0117@gmail.com
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run package installation script
+        run: |
+          chmod +x ./install_packages.sh
+          ./install_packages.sh
+      - run: honkit build ./
+      - name: Deploy 
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _book # The folder the action should deploy.
