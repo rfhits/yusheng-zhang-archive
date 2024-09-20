@@ -2,8 +2,8 @@
 
 # install ebook-convert and calibre
 sudo apt update
-sudo apt install libegl1
-sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+# sudo apt install libegl1
+# sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 sudo apt-get install calibre
 sudo apt-get install fonts-arphic-ukai
 
