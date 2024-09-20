@@ -7,9 +7,12 @@ sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | 
 # SCRIPT_DIR=$(dirname "$(realpath "$0")")
 # chmod +x "$SCRIPT_DIR/install_packages.sh"
 # "$SCRIPT_DIR/install_packages.sh"
+sudo apt update
+sudo apt install libegl1
 
 pwd
 mkdir -p ./_book/ebooks
+echo "/books Created"
 
 # 生成 PDF 文件
 honkit pdf ./_book/ebooks/yusheng-zhang-archive.pdf
