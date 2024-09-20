@@ -18,7 +18,7 @@ mkdir -p ./_book/ebooks
 honkit epub ./ ./_book/ebooks/${bookname}.epub
 
 # 因为直接生成 pdf 文件无法显示汉字，所以从 epub 转 pdf
-ebook-convert ./_book/ebooks/${bookname}.epub ./_book/ebooks/${bookname}.pdf
+ebook-convert ./_book/ebooks/${bookname}.epub ./_book/ebooks/${bookname}.pdf --output-profile=pdf --ignore-embedded-fonts
 
 # 生成 MOBI 文件
 honkit mobi ./ ./_book/ebooks/${bookname}.mobi
