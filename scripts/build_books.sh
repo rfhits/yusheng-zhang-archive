@@ -1,8 +1,12 @@
-# 确保 sudo 权限
+#!/bin/bash
+
+# install ebook-convert
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
-ls
-chmod +x ./install_packages.sh
-./install_packages.sh
+
+# install honkit etc.
+SCRIPT_DIR=$(dirname "$(realpath "$0")")
+chmod +x "$SCRIPT_DIR/install_packages.sh"
+"$SCRIPT_DIR/install_packages.sh"
 
 # 定义目标目录
 targetDir="./_book/ebooks"
