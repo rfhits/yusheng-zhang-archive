@@ -6,7 +6,8 @@
     "-lunr",
     "-search",
     "search-plus",
-    "anchor-navigation-ex"
+    "anchor-navigation-ex",
+    "katex-mhchem"
   ],
   "pdf": {
     "fontFamily": "AR PL UKai CN"
