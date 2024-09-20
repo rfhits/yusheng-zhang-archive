@@ -2,6 +2,6 @@
 
 # 电子书
 
--   [epub](https://github.com/rfhits/yusheng-zhang-archive/blob/gh-pages/ebooks/yusheng-zhang-archive.epub)
--   [pdf](https://github.com/rfhits/yusheng-zhang-archive/blob/gh-pages/ebooks/yusheng-zhang-archive.pdf)
--   [mobi](https://github.com/rfhits/yusheng-zhang-archive/blob/gh-pages/ebooks/yusheng-zhang-archive.mobi)
+-   [epub](https://rfhits.github.io/yusheng-zhang-archive/ebooks/yusheng-zhang-archive.epub)
+-   [pdf](https://rfhits.github.io/yusheng-zhang-archive/ebooks/yusheng-zhang-archive.pdf)
+-   [mobi](https://rfhits.github.io/yusheng-zhang-archive/ebooks/yusheng-zhang-archive.mobi)
