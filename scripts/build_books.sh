@@ -4,6 +4,8 @@ sudo apt install libegl1
 
 # install ebook-convert
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+sudo  apt-get update
+sudo apt-get install calibre
 
 # # install honkit etc.
 # SCRIPT_DIR=$(dirname "$(realpath "$0")")
