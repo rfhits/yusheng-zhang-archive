@@ -1,9 +1,0 @@
-{
-  "name": "yusheng-zhang-archive",
-  "version": "1.0.0",
-  "author": "rfhits alightorlee@gmail.com",
-  "scripts": {
-    "build": "honkit build",
-    "serve": "honkit serve"
-  }
-}

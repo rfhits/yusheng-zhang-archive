@@ -16,8 +16,8 @@ jobs:
           node-version: 20
       - name: Run package installation script
         run: |
-          chmod +x ./install_packages.sh
-          ./install_packages.sh
+          chmod +x ./scripts/install_packages.sh
+          ./scripts/install_packages.sh
       - run: honkit build ./
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
