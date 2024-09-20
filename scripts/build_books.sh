@@ -8,7 +8,8 @@ sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | 
 # chmod +x "$SCRIPT_DIR/install_packages.sh"
 # "$SCRIPT_DIR/install_packages.sh"
 
-mkdir ./_book/ebooks
+pwd
+mkdir -p ./_book/ebooks
 
 # 生成 PDF 文件
 honkit pdf ./_book/ebooks/yusheng-zhang-archive.pdf
