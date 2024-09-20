@@ -5,6 +5,7 @@ declare -A packages=(
     ["honkit"]="4.0.0"
     ["gitbook-plugin-search-plus"]=""
     ["gitbook-plugin-anchor-navigation-ex"]=""
+    ["gitbook-plugin-katex-mhchem"]=""
 )
 
 # 获取当前全局安装的包列表
