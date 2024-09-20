@@ -19,6 +19,10 @@ jobs:
           chmod +x ./scripts/install_packages.sh
           ./scripts/install_packages.sh
       - run: honkit build ./
+      - name: build books
+        run: |
+          chmod +x ./scripts/build_books.sh
+          ./scripts/build_books.sh
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
