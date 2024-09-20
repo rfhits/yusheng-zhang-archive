@@ -1,5 +1,6 @@
 # 确保 sudo 权限
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+ls
 chmod +x ./install_packages.sh
 ./install_packages.sh
 
