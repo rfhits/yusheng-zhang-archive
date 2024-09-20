@@ -17,6 +17,6 @@ mkdir -p ./_book/ebooks
 
 honkit epub ./ ./_book/ebooks/${bookname}.epub
 
-honkit epub ./ ./_book/ebooks/${bookname}.pdf
+honkit pdf ./ ./_book/ebooks/${bookname}.pdf
 
 honkit mobi ./ ./_book/ebooks/${bookname}.mobi
